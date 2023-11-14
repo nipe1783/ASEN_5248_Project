@@ -27,11 +27,11 @@ find_package(rclcpp REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
-add_executable(basicControl src/basicControl.cpp)
-ament_target_dependencies(basicControl rclcpp std_msgs geometry_msgs)
+add_executable(RobotController src/RobotController.cpp)
+ament_target_dependencies(RobotController rclcpp std_msgs geometry_msgs)
 
 install(TARGETS
-  basicControl
+  RobotController
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

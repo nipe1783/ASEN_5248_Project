@@ -33,3 +33,29 @@ ros2 run <pkg_name> <node_name>
 ```
 ros2 launch <pkg_name> <node_name>
 ```
+
+#### Running rViz:
+```
+colcon build
+source install/setup.bash
+```
+
+```
+ros2 launch gazebo_pkg test_launch.py
+```
+
+```
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+```
+
+```
+rviz2
+```
+
+#### Developing urdf:
+```
+cd ~/Desktop/ASEN_5248_Project
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch gazebo_pkg rsp.launch.py
+```

@@ -629,7 +629,7 @@
   </ros2_control>
 
     <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
-      <parameters>/home/robotmania/four_ws_ros2/install/gazebo_simulation/share/gazebo_simulation/models/rs_robot/config/controllers.yaml</parameters>
+      <parameters>/home/nicolas/Desktop/ASEN_5248_Project/src/gazebo_pkg/models/rs_robot/config/controllers.yaml</parameters>
     </plugin>
 
   </model>

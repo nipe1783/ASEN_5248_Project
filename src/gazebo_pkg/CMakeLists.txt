@@ -24,9 +24,10 @@ if(BUILD_TESTING)
 endif()
 
 install(DIRECTORY
-  models/
+  models
   worlds
   launch
+  urdf
   DESTINATION share/${PROJECT_NAME}/
 )
 
